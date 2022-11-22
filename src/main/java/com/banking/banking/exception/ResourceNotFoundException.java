@@ -11,6 +11,7 @@ public class ResourceNotFoundException extends RuntimeException {
     public ResourceNotFoundException(String message) {
         super(message);
     }
+    // gets message from parent class
   //  Constructs a new runtime exception with the specified detail message.
 
 }
